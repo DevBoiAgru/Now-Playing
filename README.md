@@ -19,5 +19,5 @@
 It is nowhere near polished but eh who cares.
 
 ## Screenshots:
-![Alt text](screenshots/image.png)
-![Alt text](screenshots/image-1.png)
+![Alt text](Screenshots/image.png)
+![Alt text](Screenshots/image-1.png)
