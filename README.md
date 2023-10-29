@@ -21,3 +21,5 @@ It is nowhere near polished but eh who cares.
 ## Screenshots:
 ![Alt text](Screenshots/image.png)
 ![Alt text](Screenshots/image-1.png)
+
+# Enjoy!
