@@ -5,12 +5,11 @@ from pywnp import WNPRedux
 
 
 # Start WNP, providing a port, version number and a logger
-WNPRedux.start(6969, '1.0.0', print)
+WNPRedux.start(4500, '1.0.0', print)
 
-eel.start("index.html", block=False, app_mode=True) #400x340
+eel.start("index.html", block=False, app_mode=True) #400x340 window works best
 
 # Update stuff on interface
-
 def GetInfo():
   song = WNPRedux.media_info.title
   artist = WNPRedux.media_info.artist
@@ -23,7 +22,7 @@ def GetPercent():
   eel.UpdateProgress(percent)
   return (percent)
   
-
+# Functions for skipping and pausing, called from front end javascript
 @eel.expose
 def Pause():
   WNPRedux.media_info.controls.try_toggle_play_pause()
@@ -38,6 +37,8 @@ def Previous():
 
 
 eel.sleep(2)
+
+# Update info every frame
 while True:
   GetInfo()
   GetPercent()
