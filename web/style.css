@@ -1,0 +1,110 @@
+/* devanagari */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FF;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body{
+    background-color: rgb(23, 23, 23);
+    font-family: Poppins;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#window{
+    margin: auto;
+    background-image: url("play.png");
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    text-align: center;
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.titletext{
+    padding: 1vh;
+    font-size: 11.5vmin;
+}
+.overlay{
+    z-index: 1;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background-color:rgb(0 0 0 / 74%);
+}
+.line{
+    background-color: white;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 2px;
+    width: 97%;
+    align-self: center;
+    -webkit-mask-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,0) 100%);
+    mask-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,0) 100%);
+    z-index: 2;
+}
+.toolbar{
+    display: flex;
+    flex-flow: row;
+    margin: 10px 0px 0px 0px;
+    z-index: 2;
+}
+.buttons{
+    margin: auto;
+    border: none;
+    background: none;
+}
+#song{
+    font-size: 7vmin;
+    margin: 1%;
+}
+#artist{
+    font-size: 5vmin;
+    margin: 1%;
+}
+#play{
+    width: auto;
+    height: auto;
+}
+#playimg{
+    width: 22vmin;
+    height: 22vmin;
+    background-color: transparent;
+}
+#skipimg{
+    width: 15vmin;
+    height: 15vmin;
+    background-color: transparent;
+}
+.titlebar{
+    z-index: 2;
+}
+.info{
+    z-index: 2;
+}
