@@ -1,7 +1,7 @@
 # Now Playing
  Simple python app to display the current playing song along a few options
 ![Alt text](Screenshots/image-2.png)
-## This needs Spicetify with Web Now Playing extension to run!!
+## This needs Web Now Playing extension to run!!
 
 ### Features:
 - Window scale responsive UI
