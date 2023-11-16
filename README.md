@@ -1,6 +1,6 @@
 # Now Playing
  Simple python app to display the current playing song along a few options
-![Alt text](Screenshots/image-2.png)
+![screeeeeeenshot](Screenshots/image-2.png)
 ## This needs Web Now Playing extension to run!!
 
 ### Features:
@@ -19,7 +19,7 @@
 It is nowhere near polished but eh who cares.
 
 ## Screenshots:
-![Alt text](Screenshots/image.png)
-![Alt text](Screenshots/image-1.png)
+![Screenshot](Screenshots/image.png)
+![More screenshot](Screenshots/image-1.png)
 
 # Enjoy!

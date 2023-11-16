@@ -38,7 +38,7 @@ def Previous():
 
 eel.sleep(2)
 
-# Update info every frame
+# Update info every second
 while True:
   GetInfo()
   GetPercent()
