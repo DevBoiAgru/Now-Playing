@@ -13,7 +13,7 @@
 
 ### How to run:
 1. Clone the repo
-2. Run the activate.bat in the venv folder
+2. Install dependencies from requirements.txt
 3. Run main.py
 
 It is nowhere near polished but eh who cares.
